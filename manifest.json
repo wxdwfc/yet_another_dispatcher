@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Downloader helper",
+    "description": "This extension can predicte your target download path when you download a file.",
+    "version": "0.0",
+    
+    "permissions": [
+	"downloads",
+	"storage"
+
+    ],
+    "browser_action": {
+
+    },
+    "background": {
+	"scripts": ["bg.js"],
+	"persistent": false
+    }
+}
+
+
